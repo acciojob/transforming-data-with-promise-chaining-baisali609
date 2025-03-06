@@ -28,7 +28,7 @@ document.getElementById("btn").addEventListener("click", ()=>{
 		return new Promise((resolve,reject)=>{
 			setTimeout(()=>{
 				let result = num - 3;
-				 outputValue.innerHTML += `<br>Subtracting ${num} - 2 = ${result}`;
+				 outputValue.innerHTML += `<br>Subtracting ${num} - 3 = ${result}`;
 				resolve(result);
 			},1000)
 		})
@@ -44,7 +44,7 @@ document.getElementById("btn").addEventListener("click", ()=>{
 		return new Promise((resolve,reject)=>{
 			setTimeout(()=>{
 				let result = num + 10;
-				 outputValue.innerHTML += `<br>Adding ${num} + 2 = ${result}`;
+				 outputValue.innerHTML += `<br>Adding all numbers ${num} + 10 = ${result}`;
 				resolve(result);
 			},1000)
 		})
